@@ -72,7 +72,7 @@ h1,h2,h3{font-weight:500;letter-spacing:-.02em;line-height:1.05}
 .hero__facts li{font-size:var(--step-small);color:var(--muted);max-width:16ch;line-height:1.35}
 .hero__facts b{display:block;color:var(--ink);font-weight:600;font-size:1.0625rem}
 .hero__pic{grid-column:8/13;margin-top:clamp(0px,2vw,40px)}
-.hero__pic img{aspect-ratio:4/5;object-fit:cover;object-position:50% 20%;width:100%}
+.hero__pic img{aspect-ratio:4/5;object-fit:cover;object-position:66% 50%;width:100%}
 
 /* figures */
 figure{position:relative}
@@ -174,7 +174,7 @@ input[type=range]::-moz-range-thumb{width:28px;height:28px;background:var(--acce
 .way__stage p{font-size:1.1875rem;line-height:1.55;max-width:36ch}
 .way__stage b{font-weight:600}
 .way__stage--1 .way__pic{grid-column:1/5}
-.way__stage--1 .way__pic img{aspect-ratio:3/4;object-fit:cover;object-position:60% 50%}
+.way__stage--1 .way__pic img{aspect-ratio:3/4;object-fit:cover;object-position:30% 70%}
 .way__stage--1 p{grid-column:6/10}
 .way__stage--2{margin-top:clamp(0px,6vw,100px)}
 .way__stage--2 .way__pic{grid-column:6/9;grid-row:1}
@@ -199,7 +199,7 @@ details summary:hover{color:var(--accent)}
 details p{color:var(--muted);font-size:var(--step-body);line-height:1.55;max-width:46ch;padding-top:10px;animation:open .5s var(--ease)}
 @keyframes open{from{opacity:0;transform:translateY(-8px)}to{opacity:1;transform:none}}
 .faq__pics{grid-column:8/13;position:relative}
-.faq__tall img{aspect-ratio:3/4;object-fit:cover}
+.faq__tall img{aspect-ratio:3/4;object-fit:cover;object-position:88% 50%}
 .faq__sq{position:absolute;left:-14%;bottom:-7%;width:44%}
 .faq__sq img{aspect-ratio:1/1;object-fit:cover}
 
@@ -226,7 +226,7 @@ details p{color:var(--muted);font-size:var(--step-body);line-height:1.55;max-wid
 .footer__top li b{color:var(--ink);font-weight:600}
 .footer__top a{text-underline-offset:4px}
 .footer__mark{display:block;width:100%;height:auto;margin-top:clamp(56px,10vw,160px)}
-.footer__mark text{font:500 190px/1 "Literata",Georgia,serif;fill:var(--ink);letter-spacing:-.04em}
+.footer__mark text{font:500 118px/1 "Literata",Georgia,serif;fill:var(--ink);letter-spacing:-.04em}
 .credits{font-size:.8125rem;line-height:1.5;color:var(--muted);max-width:110ch;margin-top:20px}
 
 .fab{position:fixed;right:20px;bottom:20px;z-index:40;width:56px;height:56px;display:grid;place-items:center;background:var(--accent);color:#fff;border-radius:50%;transition:transform .3s var(--ease)}

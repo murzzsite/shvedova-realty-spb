@@ -108,7 +108,7 @@
   if (calc) {
     const input = $('#calc-input'), priceEl = $('#calc-price'), sumEl = $('#calc-sum'),
       lbl = $('#calc-lbl'), note = $('#calc-note'), wrap = $('#calc-range-wrap');
-    let mode = 'buy', shown = 750000, raf;
+    let mode = 'buy', shown = 450000, raf;
     const fmt = n => Math.round(n).toLocaleString('ru-RU').replace(/ /g, ' ') + ' ₽';
     const tween = to => {
       cancelAnimationFrame(raf);
